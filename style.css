@@ -82,6 +82,11 @@ footer {
     border-radius: 50%;
     padding: 0.35em;
     margin: 0 0.25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
 }
 
 .fa-facebook:hover,
@@ -91,7 +96,7 @@ footer {
     border: 1px solid var(--softMagenta);
 }
 
-@media (min-width: 830px) {
+@media (min-width: 780px) {
     body {
         background: #674baf url(/images/bg-desktop.svg) no-repeat;
         background-size: cover;
@@ -159,5 +164,10 @@ footer {
         font-size: 1.25rem;
         margin: 0 0.5em;
         padding: 0.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 40px;
     }
 }
